@@ -10,7 +10,7 @@ create table encantada.tbProduto (
 	nome_pro varchar (50) not null,
 	categoria varchar (50) not null,
 	estoque int,
-	preco int not null
+	preco decimal not null
 );
 
 create table encantada.tbVendedor (
